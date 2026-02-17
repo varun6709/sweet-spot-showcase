@@ -164,6 +164,13 @@
   animation: float 3s ease-in-out infinite;
 }
 
+@keyframes sweet-float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  25% { transform: translateY(-8px) rotate(0.5deg); }
+  50% { transform: translateY(-12px) rotate(0deg); }
+  75% { transform: translateY(-5px) rotate(-0.5deg); }
+}
+
 html {
   scroll-behavior: smooth;
 }
